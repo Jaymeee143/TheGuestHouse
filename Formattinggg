@@ -1,10 +1,3 @@
-'{:{align}{width}}'.format('test', align='^', width='10')
-
-'{:.{prec}} = {:.{prec}f}'.format('Gibberish', 2.7182, prec=3)
-
-'{:{width}.{prec}f}'.format(2.7182, width=5, prec=2)
-
-
 from datetime import datetime
 dt = datetime(2001, 2, 3, 4, 5)
 
