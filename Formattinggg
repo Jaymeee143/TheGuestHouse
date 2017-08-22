@@ -1,0 +1,6 @@
+from datetime import datetime
+dt = datetime(2001, 2, 3, 4, 5)
+
+'{:{dfmt} {tfmt}}'.format(dt, dfmt='%Y-%m-%d', tfmt='%H:%M')
+
+'{:{}{}{}.{}}'.format(2.7182818284, '>', '+', 10, 3)
